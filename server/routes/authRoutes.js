@@ -3,7 +3,7 @@ const passport = require('passport');
 module.exports = app => {
 
     app.get('/', (res, req) => {
-        req.send({hi: 'you'});
+        req.send('/');
     })
 
     app.get(
